@@ -1,13 +1,4 @@
-/**
- Copyright (C) 2022.
- Licensed under the  GPL-3.0 License;
- You may not use this file except in compliance with the License.
- It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
- * @version 0.0.6
- **/
+//Zyren Md/
 
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
@@ -19,7 +10,7 @@ var dlsize = 350 // 350mb
     //---------------------------------------------------------------------------
 cmd({
             pattern: "tgs",
-            desc: "Downloads telegram stickers.",
+            desc: "Downloads Telegram Stickers.",
             category: "downloader",
             filename: __filename,
             use: '<add sticker url.>',
@@ -32,10 +23,10 @@ function __lobz(){const H=['R53FWbciV9','reply','rbot_18407','\x5c(\x20*\x5c)','
 cmd({
             pattern: "tts",
             react: "🔊",
-            desc: "text to speech.",
+            desc: "Text to Speech.",
             category: "downloader",
             filename: __filename,
-            use: '<Hii,this is Secktor>',
+            use: '<Hii,this is Zyren>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me Sentence to change into audio.')
@@ -62,7 +53,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ringtone",
-            desc: "Downloads ringtone.",
+            desc: "Downloads Ringtone.",
             category: "downloader",
             filename: __filename,
             use: '<ringtone name>',
@@ -77,7 +68,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "pint",
-            desc: "Downloads image from pinterest.",
+            desc: "Downloads Image from Pinterest.",
             category: "downloader",
             filename: __filename,
             use: '<text|image name>',
@@ -211,7 +202,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
         pattern: "song",
-        desc: "Downloads audio by yt link.",
+        desc: "Downloads Audio by Youtube Link.",
         category: "downloader",
         react: "🎶",
         use: '<yt video url>',
@@ -263,7 +254,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'audio/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸`,
+                        caption: `Zyren MD ⦁ Made By M-N\nReleased ⦁ 𝟸𝟶𝟸𝟹/𝟶4/2𝟸`,
                         headerType: 4,
                     }
                     return Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
@@ -382,7 +373,7 @@ cmd({
 
                         fileName: `${titleYt}.mp4`,
 
-                        caption: `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸`,
+                        caption: `Zyren MD ⦁ Made By M-N\nReleased ⦁ 𝟸𝟶𝟸𝟹/𝟶4/2`,
 
                         headerType: 4,
 
@@ -512,7 +503,7 @@ cmd({
 
                         fileName: `${titleYt}.mp3`,
 
-                        caption: `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸`,
+                        caption: `Zyren MD ⦁ Made By M-N\nReleased ⦁ 𝟸𝟶𝟸𝟹/𝟶4/2`,
 
                         headerType: 4,
 
@@ -642,7 +633,7 @@ cmd({
 
                         fileName: `${titleYt}.mp4`,
 
-                        caption: `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ ⦁ ᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 𝟸𝟶𝟸𝟹/𝟶𝟷/𝟶𝟸`,
+                        caption: `Zyren MD ⦁ Made By M-N\nReleased ⦁ 𝟸𝟶𝟸𝟹/𝟶4/2`,
 
                         headerType: 4,
 
