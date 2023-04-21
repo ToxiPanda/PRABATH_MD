@@ -25,8 +25,8 @@
 
    5. Clone Repo and install required packages
       ```
-      git clone https://github.com/prabathLK/PRABATH_MD
-      cd PRABATH_MD
+      git clone https://github.com/ToxiPanda/Zyren-Md
+      cd Zyren-Md
       yarn install --network-concurrency 1
       ```
 
@@ -42,7 +42,7 @@
       MONGODB_URI="Enter-mongodb_uri"
       SESSION_ID = "enter session_id"
       port = 5000
-      OWNER_NAME = "prabath-md"
+      OWNER_NAME = "M-N"
       AUTO_REACTION = false
       AUTO_VOICE = false
       AUTO_STICKER = false
@@ -54,7 +54,7 @@
       LEVEL_UP_MESSAGE= true
       THEME= PRABATH-MD
       WORKTYPE = public
-      PACK_INFO = "prabath ✅;prabath-md"
+      PACK_INFO = "zyren ✅;zyren-md"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
       ```
