@@ -10,16 +10,16 @@ global.email = 'nope'
 global.github = 'nope'
 global.location = 'sl'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94762280384'
-global.devs = '94762280384';
+global.sudo = process.env.SUDO || '94757558130'
+global.devs = '94757558130';
 global.website = 'nope' //wa.me/+94701505642
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0efdfe05f4fdb4a23dee1.jpg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/0efdfe05f4fdb4a23dee1.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*Develop By Mithum & N_ytrixx* 🎊',
   ownername:process.env.OWNER_NAME || 'M-N',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
