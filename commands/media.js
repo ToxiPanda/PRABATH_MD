@@ -168,7 +168,7 @@ const videolink = fbdls.result.audio
 
                 mimetype: "audio/mpeg",
 
-                fileName: `prabath-md-fb-song-downloader`,
+                fileName: `zyren-md-fb-song-downloader`,
 
             }, {
 
@@ -247,9 +247,9 @@ const lastupdate = apkdl.data.lastup
 
            
 
-            pack = `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ (𝟺.𝟷.𝟶) ✔️`
+            pack = `zyren-md (𝟺.𝟷.𝟶) ✔️`
 
-            author = `ᴘʀᴀʙᴀᴛʜ\nᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ 🎊`
+            author = `zyren\nmade by zyren-md 🎊`
 
             
 
@@ -306,9 +306,9 @@ cmd({
 
            
 
-            pack = `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ (𝟺.𝟷.𝟶) ✔️`
+            pack = `zyren-md (𝟺.𝟷.𝟶) ✔️`
 
-            author = `ᴘʀᴀʙᴀᴛʜ\nᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ 🎊`
+            author = `zyren\nmade by zyren-md 🎊`
 
             
 
@@ -464,9 +464,9 @@ cmd({
 
            
 
-            pack = `ᴘʀᴀʙᴀᴛʜ-ᴍᴅ (𝟺.𝟷.𝟶) ✔️`
+            pack = `zyren-md (𝟺.𝟷.𝟶) ✔️`
 
-            author = `ᴘʀᴀʙᴀᴛʜ\nᴍᴀᴅᴇ ʙʏ ᴘʀᴀʙᴀᴛʜ-ᴍᴅ 🎊`
+            author = `zyren\nmade by zyren-md 🎊`
 
             
 
