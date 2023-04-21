@@ -6,13 +6,13 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'sam@sec.live'
-global.github = 'https://github.com/prabathLK/PRABATH-MD'
-global.location = 'Sultanpur IN'
+global.email = 'nope'
+global.github = 'nope'
+global.location = 'sl'
 global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '94762280384'
 global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
+global.website = 'nope' //wa.me/+94701505642
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
@@ -20,15 +20,15 @@ module.exports = {
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  alivemsj: process.env.ALIVE_MSJ || '*Develop By Mithum & N_ytrixx* 🎊',
+  ownername:process.env.OWNER_NAME || 'M-N',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
-  autoreaction: process.env.AUTO_REACTION || 'off',
+  autoreaction: process.env.AUTO_REACTION || 'on',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'false',
+  alwaysonline: process.env.ALWAYS_ONLINE || 'true',
   antifake : process.env.FAKE_COUNTRY_CODE || '',
   readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.'],
